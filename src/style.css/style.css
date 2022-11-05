@@ -26,6 +26,11 @@ header {
   border-bottom: 2px solid #f7dd43;
   border-radius: 6px;
 }
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
 .card h2 {
   display: flex;
